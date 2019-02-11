@@ -147,8 +147,12 @@ public class calculadora extends javax.swing.JFrame {
         duix.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
         duix.setText("2");
 
-        input_operacao.setText("SLA");
         input_operacao.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        input_operacao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                input_operacaoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -291,6 +295,10 @@ public class calculadora extends javax.swing.JFrame {
     private void offActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_offActionPerformed
         System.exit(0);
     }//GEN-LAST:event_offActionPerformed
+
+    private void input_operacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_input_operacaoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_input_operacaoActionPerformed
 
     public static void main(String args[]) {
      
