@@ -76,7 +76,7 @@ public class calculadora extends javax.swing.JFrame {
         porc.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         off.setFont(new java.awt.Font("Calibri Light", 1, 14)); // NOI18N
-        off.setText("OFF");
+        off.setText("Exit");
         off.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         off.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
